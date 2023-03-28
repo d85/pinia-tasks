@@ -20,5 +20,10 @@ export const useTaskStore = defineStore('taskStore', {
       // need to pass state if using arrow function
       return state.tasks.length
     }
+  },
+  actions: {
+    addTask(task) {
+      this.tasks.push(task)
+    }
   }
 })
