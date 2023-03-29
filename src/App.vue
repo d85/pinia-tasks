@@ -18,7 +18,7 @@
     </nav>
 
     <!-- loading -->
-    <div clas="loading" v-if="taskStore.loading">Loading tasks...</div>
+    <div class="loading" v-if="taskStore.loading">Loading tasks...</div>
 
     <!-- task list -->
     <div class="task-list" v-if="filter === 'all'">
